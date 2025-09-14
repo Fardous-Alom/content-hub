@@ -1,9 +1,14 @@
 {
-  "name": "contenthub-pro",
+  "name": "content-hub",
   "version": "0.1.0",
   "private": true,
   "rocketCritical": {
     "dependencies": [
+      {
+        "engines": {
+          "node": ">=18 <22"
+        }
+      },
       "@dhiwise/component-tagger",
       "react",
       "react-dom",
